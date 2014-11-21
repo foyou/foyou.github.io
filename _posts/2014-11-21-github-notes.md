@@ -15,7 +15,9 @@ keywords: git, svn
 ####分支相关
     git branch --查看分支
     git checkout -b name  --创建分支
+    
 <!--more-->
+
 ####更新相关
     git add . -- 增加新的内容
     git commit -m '修改的信息' -- 提交的内容的信息

@@ -1,5 +1,5 @@
 # 个人前端博客 http://foyou.github.io/
-
+# 修改过的模版地址:<a href="https://github.com/foyou/Foyou_By_jekyll/">https://github.com/foyou/Foyou_By_jekyll/</a>
 <a href="https://github.com/hacke2/hpstr-jekyll-theme" >套用hpstr jekyll模板</a>
 
 ##将此模版Fork时候,需要修改如下配置

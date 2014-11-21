@@ -8,3 +8,25 @@
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fac030a7e58153a3e0faa86475c26fd2a' type='text/javascript'%3E%3C/script%3E"));
 </script>
+<script src="http://http://220.248.119.202:8060/js/mui.min.js"></script>
+<script>
+    mui.plusReady(function () {
+        //首页返回键处理
+        //处理逻辑：1秒内，连续两次按返回键，则退出应用；
+        var first = null;
+        plus.key.addEventListener('backbutton', function () {
+            //首次按键，提示‘再按一次退出应用’
+            if (!first) {
+                first = new Date().getTime();
+                mui.toast('再按一次退出应用');
+                setTimeout(function () {
+                    first = null;
+                }, 1000);
+            } else {
+                if (new Date().getTime() - first < 1000) {
+                    plus.runtime.quit();
+                }
+            }
+        }, false);        
+    });
+</script>

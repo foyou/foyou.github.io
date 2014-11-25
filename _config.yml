@@ -1,5 +1,5 @@
-title:            蜉蝣's blog
-description:      蜉蝣的技术博客,分享自己的技术心得.
+title:            蜉蝣
+description:      蜉蝣的技术博客,分享自己的技术心得|夫蜉蝣不知晦暮,蟪蛄不知春秋,井蛙不知江海,又何怪其笑耶!.
 disqus_shortname: mojoo
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:              http://foyou.github.io
 owner:
   name:           foyou
   avatar:         avatar_1.jpg
-  bio:            "博客还是要有的,万一火了呢."
+  bio:            "夫蜉蝣不知晦暮,蟪蛄不知春秋,井蛙不知江海,又何怪其笑耶!"
   email:          moojo9844@vip.qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        

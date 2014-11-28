@@ -1,8 +1,13 @@
 ---
-layout:        post
+layout:       Post
 title:        Git/SVN 常用命令笔记
-description:   刚开始学习使用GitHub，从http://pizn.github.io/2011/11/12/github-notes.html看到了一些常用命令,转过来了......
+description:  刚开始学习使用GitHub，从http://pizn.github.io/2011/11/12/github-notes.html看到了一些常用命令,转过来了......
 keywords: git, svn
+tags: [git]
+image:
+  background: body_bg.gif
+comments: true
+share: true
 ---
 刚开始学习使用GitHub，从http://pizn.github.io/2011/11/12/github-notes.html看到了一些常用命令,转过来了......
 

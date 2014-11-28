@@ -1,8 +1,13 @@
 ---
 layout:        post
 title:         图片上传到ftp指定文件夹
-description:   夫蜉蝣不知晦暮,蟪蛄不知春秋,井蛙不知江海,又何怪其笑耶!...
+description:   图片上传到ftp指定文件夹的功能，c#版本的实现起来也比较简单，可以一次上传多张图片。
 keywords: ftp, post,upload,图片上传
+tags: [upload],[ftp],[Post]
+image:
+  background: body_bg.gif
+comments: true
+share: true
 ---
 
 图片上传到ftp指定文件夹的功能，c#版本的实现起来也比较简单，可以一次上传多张图片。
@@ -10,7 +15,7 @@ keywords: ftp, post,upload,图片上传
 <!--more-->
 
 {% highlight JavaScript %}
-  		#region 文件上传Ftp
+        #region 文件上传Ftp
         #region 公共字段
         public readonly static  string targetDir = "/";  //文档目录
         public readonly static string hostname = "127.0.0.1:21"; //IP

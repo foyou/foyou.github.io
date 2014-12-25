@@ -12,14 +12,10 @@ share: true
 {% highlight JavaScript %}
 {
   "name": "foyou",
-  "description": "",
-  "version": "0.0.9",
-  "keywords": ["Web APP", "JS", "Frontend Developer"],
-  "contact": {
-    "weibo": "@暮呢喃",
-    "github": "@foyou"
-  },
+  "description": "码农一只,Code不堪入目,日夜自省中.",  
+  "keywords": ["Coder", "切面仔"],  
   "location": "上海",
   "workAt": "Lotusint Inc."
 }
 {% endhighlight %}
+

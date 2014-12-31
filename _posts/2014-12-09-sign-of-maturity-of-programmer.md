@@ -2,7 +2,7 @@
 layout:        post
 title:         程序员成熟的标志
 description:   "程序员成熟的标志"
-tags: [Coder]
+tags: [分享]
 image:
   background: body_bg.gif
 comments: true

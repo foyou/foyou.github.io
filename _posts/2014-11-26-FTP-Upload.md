@@ -2,7 +2,7 @@
 layout:        post
 title:         图片上传到ftp指定文件夹
 description:   "图片上传到ftp指定文件夹的功能，c#版本的实现起来也比较简单，可以一次上传多张图片。"
-tags: [upload,ftp,Post]
+tags: [Upload]
 image:
   background: body_bg.gif
 comments: true

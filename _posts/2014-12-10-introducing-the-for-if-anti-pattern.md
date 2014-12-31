@@ -2,7 +2,7 @@
 layout:        post
 title:         反 for-if 编程模式
 description:   "反 for-if 编程模式"
-tags: [反 for-if 编程模式]
+tags: [分享]
 image:
   background: body_bg.gif
 comments: true

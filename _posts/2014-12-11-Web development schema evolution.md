@@ -2,7 +2,7 @@
 layout:        post
 title:         Web 研发模式演变(.NET)
 description:   "Web 研发模式演变(.NET)"
-tags: [Web 研发模式演变,web]
+tags: [分享]
 image:
   background: body_bg.gif
 comments: true

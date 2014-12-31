@@ -2,7 +2,7 @@
 layout:        post
 title:         纯CSS实现各类气球泡泡对话框效果
 description:   "纯CSS实现各类气球泡泡对话框效果"
-tags: [CSS,气泡,对话框]
+tags: [CSS]
 image:
   background: body_bg.gif
 comments: true

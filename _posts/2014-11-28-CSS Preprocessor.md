@@ -2,7 +2,7 @@
 layout:        post
 title:         CSS预处理器——Sass、LESS和Stylus实践
 description:   "CSS(Cascading Style Sheet)被译为级联样式表，做为一名前端从业人员来说，这个专业名词并不陌生，在行业中通常称之为风格样式表（Style Sheet），它主要是用来进行网页风格设计的。通过设立样式表，可以统一地控制HTML（XHTML）中各标签的显示属性。可以使人更能有效的控制Web页面（或Web应用程序）外观，可以精确指定Web元素位置，外观以及创建特殊效果的能力。"
-tags: [CSS,CSS3,Less,Sass,Stylus]
+tags: [CSS3]
 image:
   background: body_bg.gif
 comments: true

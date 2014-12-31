@@ -2,7 +2,7 @@
 layout:        post
 title:         好代码是廉价的代码
 description:   "好代码是廉价的代码"
-tags: [Code,设计模式]
+tags: [Code]
 image:
   background: body_bg.gif
 comments: true

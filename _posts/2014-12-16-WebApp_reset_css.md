@@ -2,7 +2,7 @@
 layout:        post
 title:         WebApp_reset.css
 description:   "分享一个可以用于webapp的reset样式表。"
-tags: [css,webapp]
+tags: [CSS]
 image:
   background: body_bg.gif
 comments: true

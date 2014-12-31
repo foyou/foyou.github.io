@@ -2,7 +2,7 @@
 layout:        post
 title:         JDK工具KEYTOOL常用命令
 description:   "JDK工具KEYTOOL常用命令"
-tags: [JDK,KEYTOOL]
+tags: [分享]
 image:
   background: body_bg.gif
 comments: true

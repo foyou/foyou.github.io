@@ -2,7 +2,7 @@
 layout:        post
 title:         程序猿的鄙视链
 description:   "程序猿的鄙视链"
-tags: [coder,程序猿]
+tags: [分享]
 image:
   background: body_bg.gif
 comments: true

@@ -2,7 +2,7 @@
 layout:        post
 title:         记录ajax和url参数值编码的使用
 description:   "记录ajax和url参数值编码的使用"
-tags: [ajax,url,编码]
+tags: [Ajax]
 image:
   background: body_bg.gif
 comments: true

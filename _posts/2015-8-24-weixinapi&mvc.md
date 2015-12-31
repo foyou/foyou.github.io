@@ -1,8 +1,8 @@
 ---
 layout:        post
-title:         web api调取数据配合app
-description:   "web api调取数据配合app"
-tags: [HTML5,Manifest]
+title:         微网站结合weixinapi
+description:   "微网站结合weixinapi"
+tags: [HTML5,WeiXinAPI,WeiXinPay]
 image:
   background: body_bg.gif
 comments: true
@@ -25,15 +25,11 @@ share: true
 
 {% highlight JavaScript %}
 			config.Routes.MapHttpRoute(
-         name: "DefaultApi",
-         routeTemplate: "api/{controller}/{id}",
-         defaults: new { id = RouteParameter.Optional }
-      );
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
 {% endhighlight%}
-
-    
-<!--more-->
-
 
 	路由表中的每一个条目都包含一个路由模板。这个Web API默认的路由模版是"api/{controller}/{id}"。在这个模版中，“api”是一个文字式路径片段，而{controller}和{id}则是占位符变量。 
 

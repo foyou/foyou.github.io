@@ -29,7 +29,7 @@ share: true
          routeTemplate: "api/{controller}/{id}",
          defaults: new { id = RouteParameter.Optional }
       );
-{% endhighlight%}
+{% endhighlight %}
 
     
 <!--more-->
@@ -59,7 +59,7 @@ share: true
 	$.get("api/Foodlist/Getlist", function (data) {
         console.log(JSON.stringify(data));
     });
-{% endhighlight%}
+{% endhighlight %}
 
 	请求的后台Action方法仍为上篇文章中的Getlist() :
 
@@ -68,7 +68,7 @@ share: true
 	{
 	    return null;
 	}
-{% endhighlight%}
+{% endhighlight %}
 	
 	二、传递一个参数的Get请求
 
@@ -83,7 +83,7 @@ share: true
             console.log(data);
         }
     });
-{% endhighlight%}
+{% endhighlight %}
 
 	后台正确的返回数据：
 
@@ -92,7 +92,7 @@ share: true
 	{
 	    return name+"订购了"+num+"份菜";
 	}
-{% endhighlight%}
+{% endhighlight %}
 
 	三、无参数的Post请求
 
@@ -106,7 +106,7 @@ share: true
         	console.log(JSON.stringify(data));
     	}
     });
-{% endhighlight%}
+{% endhighlight %}
 
 	请求的后台Action方法仍为上篇文章中的Getlist() :
 
@@ -115,7 +115,7 @@ share: true
 	{
 	    return null;
 	}
-{% endhighlight%}
+{% endhighlight %}
 
 	四、传递带参数的Post请求：
 
@@ -132,7 +132,7 @@ share: true
             console.log(data);
         }
     });
-{% endhighlight%}
+{% endhighlight %}
 
 	后台处理:
 	
@@ -141,7 +141,7 @@ share: true
 	{
 	    return string.Format("姓名:{0}",name);
 	}
-{% endhighlight%}
+{% endhighlight %}
 
 	Post多个参数的处理:[FromBody] 修饰的参数只能有一个。我们需要对传递的多个参数进行封装才行。这里，我们可以将 Name和 Num 封装成一个User类,并且带一个对象数组：
 	
@@ -159,7 +159,7 @@ share: true
         public string rate { get; set; }
         public string cost { get; set; }
     }
-{% endhighlight%}
+{% endhighlight %}
 
 	前台数据及请求:
 	
@@ -179,7 +179,7 @@ share: true
             console.log(data);
         }
     });
-{% endhighlight%}
+{% endhighlight %}
 
 	后台接收处理:
 	
@@ -189,6 +189,6 @@ share: true
         {
         	return string.Format("姓名:{0},订购:{1}份,其中一份为:{2}",user.name,user.num,user.orderlist[0].id);
         }
-{% endhighlight%}
+{% endhighlight %}
 
 ####Post请求中对于参数的处理是需要重点注意.

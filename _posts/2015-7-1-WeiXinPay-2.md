@@ -25,7 +25,7 @@ share: true
 {% highlight JavaScript %}
 	var payment = new Payment("商户号", "appId", "AppKey","/Notify_Url");
     var payInfo = payment.Pay(TotalFee, "唯一订单编号", "订单支付", "127.0.0.1");//TotalFee 总金额，单位：分，不能为空
-{% endhighlight%}
+{% endhighlight %}
 
     
 <!--more-->
@@ -190,5 +190,5 @@ share: true
             retStr = retStr.Replace("-", "").ToUpper();
             return retStr;
         }
-{% endhighlight%}
+{% endhighlight %}
 

@@ -34,7 +34,7 @@ https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPE
 {% endhighlight%}
 
 接收返回信息页面：
-｛% highlight JavaScript %}
+{% highlight JavaScript %}
 [AllowAnonymous]
         public ActionResult Oauth_Response(string code, string state)
         {

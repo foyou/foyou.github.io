@@ -30,6 +30,8 @@ share: true
                 defaults: new { id = RouteParameter.Optional }
             );
 {% endhighlight %}
+    
+<!--more-->
 
 	路由表中的每一个条目都包含一个路由模板。这个Web API默认的路由模版是"api/{controller}/{id}"。在这个模版中，“api”是一个文字式路径片段，而{controller}和{id}则是占位符变量。 
 

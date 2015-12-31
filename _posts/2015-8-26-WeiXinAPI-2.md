@@ -11,13 +11,8 @@ share: true
 
 ###前言
 
-     配合公司APP,微信里面也要做一套微网站.盯着WeiXinAPI各种看.
-     微信JS-SDK地址:<a href="http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html" target="_blank">http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html</a>
-     微信支付文档地址:<a href="https://pay.weixin.qq.com/wiki/doc/api/app.php?chapter=8_1" target="_blank">https://pay.weixin.qq.com/wiki/doc/api/app.php?chapter=8_1</a>
-	微信JS-SDKdemo:<a href="http://203.195.235.76/jssdk/" target="_blank">http://203.195.235.76/jssdk/</a>
-	
 	在关注者与公众号产生消息交互后，公众号可获得关注者的OpenID（加密后的微信号，每个用户对每个公众号的OpenID是唯一的。对于不同公众号，同一用户的openid不同）。公众号可通过本接口来根据OpenID获取用户基本信息，包括昵称、头像、性别、所在城市、语言和关注时间。
-	
+
 	我们可以看看官方的文档：<a href="http://mp.weixin.qq.com/wiki/14/bb5031008f1494a59c6f71fa0f319c66.html">获取用户的基本信息</a>。
 	    
 <!--more-->

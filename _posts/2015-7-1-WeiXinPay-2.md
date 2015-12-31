@@ -137,11 +137,9 @@ share: true
             var serializer = new JavaScriptSerializer();
             var result = serializer.Serialize(obj);
             return result;
-    	}
-    	
-    	
+    	} 
     	return xe;
-        }
+  }
 
         private string getXmlStr(Hashtable parameters)
         {
